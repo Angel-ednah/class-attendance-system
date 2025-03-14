@@ -10,9 +10,9 @@
         .hero {
             text-align: center;
             padding: 100px 20px;
-            background-image: url('bk.jpg'); /* Add your background image */
-            background-size: cover; /* Ensure the image covers the entire section */
-            background-position: center; /* Center the image */
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('bk.jpg');
+            background-size: cover;
+            background-position: center;
             color: #fff;
             position: relative;
         }
@@ -89,7 +89,7 @@
 <body>
     <!-- Hero Section -->
     <div class="hero">
-        <h1>Welcome to the Attendance and Performance Monitoring System</h1>
+        <h1 style="color:rgb(70, 227, 107);">Welcome to the Attendance and Performance Monitoring System</h1>
         <p>Manage attendance and performance records efficiently with our system.</p>
         <div class="cta-buttons">
             <a href="login.php">Login</a>
@@ -119,5 +119,8 @@
             </div>
         </div>
     </div>
+    <footer>
+    &copy; 2025 - All right reserved - CAS&trade;
+    </footer>
 </body>
 </html>

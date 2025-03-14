@@ -30,6 +30,7 @@ try {
 </head>
 <body>
     <div class="container">
+    <a href="dashboard.php" class="back-btn">Go home</a>
         <h1>View Performance</h1>
         <table>
             <tr>
@@ -52,5 +53,8 @@ try {
             <?php endif; ?>
         </table>
     </div>
+    <footer>
+    &copy; 2025 - All right reserved - CAS&trade;
+    </footer>
 </body>
 </html>

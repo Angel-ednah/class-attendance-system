@@ -25,5 +25,8 @@ if (!isset($_SESSION['user_id']) || $_SESSION['role'] !== 'student') {
             <a href="../logout.php">Logout</a>
         </div>
     </div>
+    <footer>
+    &copy; 2025 - All right reserved - CAS&trade;
+    </footer>
 </body>
 </html>

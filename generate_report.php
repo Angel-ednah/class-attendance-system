@@ -155,6 +155,7 @@ function generatePdfReport($attendance, $performance) {
 </head>
 <body>
     <div class="container">
+    <a href="./teacher/dashboard.php" class="back-btn">Go home</a>
         <h1>Generate Report</h1>
         <form method="POST" action="">
             <label for="format">Select Format:</label>
@@ -165,5 +166,8 @@ function generatePdfReport($attendance, $performance) {
             <button type="submit">Generate Report</button>
         </form>
     </div>
+    <footer>
+    &copy; 2025 - All right reserved - CAS&trade;
+    </footer>
 </body>
 </html>

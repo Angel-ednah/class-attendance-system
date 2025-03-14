@@ -64,6 +64,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['attendance'])) {
 </head>
 <body>
     <div class="container">
+    <a href="dashboard.php" class="back-btn">Go home</a>
         <h1>Record Attendance</h1>
         <form method="POST" action="">
             <label for="class_id">Select Class:</label>
@@ -102,5 +103,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['attendance'])) {
             </form>
         <?php endif; ?>
     </div>
+    <footer>
+    &copy; 2025 - All right reserved - CAS&trade;
+    </footer>
 </body>
 </html>

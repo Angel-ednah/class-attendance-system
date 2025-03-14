@@ -1,10 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #9d9696e6;
     margin: 0;
     padding: 0;
 }
-
 .container {
     width: 80%;
     margin: 50px auto;
@@ -92,4 +91,31 @@ th, td {
 
 th {
     background-color: #f2f2f2;
+}
+.back-btn{
+    text-decoration: none;
+    color: white;
+    background-color: #2790ff;;
+    padding: 5px 10px;
+
+}
+.back-btn:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #0651a0;;
+    padding: 5px 10px;
+
+}
+footer {
+    height: 30px;
+    width: 100%;
+    background-color: #0c0c0cf4;
+    color: white;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    line-height: 6vh;
 }
