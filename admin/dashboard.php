@@ -18,15 +18,18 @@ if (!isset($_SESSION['user_id']) || $_SESSION['role'] !== 'admin') {
 </head>
 <body>
     <div class="container">
-        <h1>Welcome, Admin!</h1>
+            <h1>Welcome, Admin!</h1>
         <div class="dashboard-links">
-    <a href="add_student.php">Add Student</a>
-    <a href="insert_class.php">Add Class</a>
-    <a href="view_records.php">View Records</a>
-    <a href="../generate_report.php">Generate Report</a>
-    <a href="../logout.php">Logout</a>
-</div>
+            <a href="add_student.php">Add Student</a>
+            <a href="insert_class.php">Add Class</a>
+            <a href="view_records.php">View Records</a>
+            <a href="generate_report.php">Generate Report</a>
+            <!-- <a href="../generate_report.php">Generate Report</a> -->
+            <a href="../logout.php">Logout</a>
+        </div>
     </div>
-    
+<footer>
+    &copy; 2025 - All right reserved - CAS&trade;
+</footer> 
 </body>
 </html>

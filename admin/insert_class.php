@@ -31,6 +31,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 </head>
 <body>
     <div class="container">
+    <a href="dashboard.php" class="back-btn">Go home</a>
         <h1>Add Class</h1>
         <form method="POST" action="">
             <label for="class_name">Class Name:</label>
@@ -41,5 +42,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <div class="message">Class added successfully!</div>
         <?php endif; ?>
     </div>
+    <footer>
+    &copy; 2025 - All right reserved - CAS&trade;
+    </footer>
 </body>
 </html>

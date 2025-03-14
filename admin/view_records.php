@@ -38,8 +38,8 @@ try {
 </head>
 <body>
     <div class="container">
-        <h1>View Records</h1>
-        
+    <a href="dashboard.php" class="back-btn">Go home</a>
+        <h1>View Records</h1>        
         <h2>Classes</h2>
         <table>
             <tr>
@@ -84,5 +84,8 @@ try {
             <?php endif; ?>
         </table>
     </div>
+    <footer>
+    &copy; 2025 - All right reserved - CAS&trade;
+    </footer>
 </body>
 </html>
